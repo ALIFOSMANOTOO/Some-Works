@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1621899584 source:c:\users\hp\dropbox\my pc (kwakulyfstyle)\desktop\test\test.c
+	<stdio.h>
+
+1622927149 source:c:\users\hp\dropbox\my pc (kwakulyfstyle)\desktop\test\main.c
+	<stdio.h>
+	<stdlib.h>
+
