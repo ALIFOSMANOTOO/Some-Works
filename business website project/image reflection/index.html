@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Image gallery reflection</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="jquery.flipster.min.css">
+
+    </head>
+
+    <body>
+      <div class="hero">
+          <div class="carousel">
+              <ul>
+                  <li><img src="./images/img 1.jpg"></li>
+                  <li><img src="./images/img 2.jpg"></li>
+                  <li><img src="./images/img 3.jpg"></li>
+                  <li><img src="./images/img 4.jpg"></li>
+                  <li><img src="./images/img 5.jpg"></li>
+                  <li><img src="./images/img 6.jpg"></li>
+                  <li><img src="./images/img 7.jpg"></li>
+                  <li><img src="./images/img 8.jpg"></li>
+                  <li><img src="./images/img 9.jpg"></li>
+                  <li><img src="./images/img 10.jpg"></li>
+              </ul> 
+          </div>
+           
+      </div>  
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+
+    <script>
+        $('.carousel').flipster({
+            style:'carousel',
+            spacing:-0.3,
+        });
+    </script>
+
+    </body>
+</html>
